@@ -9,9 +9,8 @@ class Turn_helper
     def add_turn
       if @turn_count <= 8
       @turn_count = @turn_count + 1
-      else
-      gamecheck
     end
+  end
 
 
 end

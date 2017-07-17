@@ -1,6 +1,10 @@
 require './lib/game'
 describe Game do
 
+  it 'initalises a grid with 9 spaces with zero value' do
+    expect(subject.grid).to eq [0,0,0,0,0,0,0,0,0]
+  end
+
   it 'starts a game with a grid of nine spaces containing 0' do
     expect(subject.grid).to eq [0,0,0,0,0,0,0,0,0]
   end
